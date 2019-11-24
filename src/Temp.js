@@ -4,17 +4,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+import sun from "./sun.png";
+
 export default function Temp() {
   return (
     <Container className="Temp">
       <Row className="row">
         <Col xs={8} md={6}>
-          <img
-            src="./img/shower.png"
-            alt="clear"
-            id="main-icon"
-            className="main-image"
-          />
+          <img src={sun} alt="clear" id="main-icon" className="main-image" />
         </Col>
         <Col xs={4} md={6}>
           <div className="row weather-temp">
