@@ -10,15 +10,27 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <Location />
+    <div>
+      <div className="App">
+        <div>
+          <Location />
+        </div>
+        <div>
+          <Temp />
+        </div>
+        <div>
+          <Forecast />
+        </div>
       </div>
       <div>
-        <Temp />
-      </div>
-      <div>
-        <Forecast />
+        <p>
+          <smal className="info">
+            Open-source code by{" "}
+            <a href="https://github.com/raquelFel/react-weather-app">
+              Raquel Felgueiras
+            </a>
+          </smal>
+        </p>
       </div>
     </div>
   );
